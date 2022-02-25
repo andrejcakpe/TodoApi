@@ -1,8 +1,4 @@
-﻿body {
-    background-color: gold;
-}
-
-input[type='submit'], button, [aria-label] {
+﻿input[type='submit'], button, [aria-label] {
     cursor: pointer;
 }
 
