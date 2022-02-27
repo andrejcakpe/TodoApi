@@ -1,23 +1,93 @@
-﻿input[type='submit'], button, [aria-label] {
+﻿body {
+    background-color: #274a58;
+    color: white;
+}
+
+.content {
+    max-width: 800px;
+    margin: auto;
+    padding: 100px 0 10px 0;
+    font-family: 'Yu Gothic UI';
+}
+
+h1 {
+    text-align: center;
+}
+
+input[type='submit'], button, [aria-label] {
     cursor: pointer;
+    border: none;
+    background-color: #A8B5C0;
+    color: white;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+input[type='text'] {
+    cursor: pointer;
+    border: none;
+    background-color: #0d2a42;
+    border-radius: 8px;
+    padding: 10px;
+    width: 611px;
+    height: 50px;
+    color: white;
+}
+
+
+button {
+    border: none;
+    padding: 20px;
+    background-color: #A8B5C0;
+    border-radius: 12px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 #editForm {
     display: none;
 }
 
-table {
-    font-family: Arial, sans-serif;
-    border: 1px solid;
-    border-collapse: collapse;
+#counter {
+    background-color: #295172;
+    width: 80px;
+    border-radius: 8px;
+    padding: 8px;
 }
 
 th {
-    background-color: #f8f8f8;
     padding: 5px;
 }
 
+
 td {
-    border: 1px solid;
-    padding: 5px;
+    padding: 15px;
+    height: 100px;
+    width: 200px;
+}
+
+#completed {
+    text-align: start;
+}
+
+
+input[type='checkbox'] {
+    accent-color: gray;
+    height: 50px;
+    width: 50px;
+}
+
+
+    input[type='checkbox']:disabled {
+        height: 80px;
+        width: 40px;
+    }
+
+input[type="checkbox" i]:disabled {
+    background-color: aqua;
+    /*appearance: inherit;*/
+}
+
+input:disabled {
+    border-color: rgba(118, 118, 118, 0.3);
 }
